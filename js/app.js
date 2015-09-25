@@ -54,3 +54,5 @@ var squares = document.querySelectorAll('#bingoBoard td')
 for(var i=0; i < squares.length; i++) {
   squares[i].textContent = shuffledChoices[i]
 }
+
+squares[12].textContent = "FREE SQUARE"

@@ -1,5 +1,11 @@
+body {
+    background-color: #ff8400;
+    background-image: url(argyle.png);
+}
+
 h1 {
     font-family: Georgia;
+    text-align: center;
 }
 
 table {
@@ -7,10 +13,20 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
 }
+
 td {
+    position: relative;
     width: 100px;
     height: 100px;
     border: 1px solid black;
     padding: 5px;
+    text-align: center;
+}
+
+tr:nth-child(3) td:nth-child(3) {
+    font-weight: bold; 
+    color: green;
 }
