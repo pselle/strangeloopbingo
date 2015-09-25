@@ -26,12 +26,21 @@ td {
     text-align: center;
 }
 
-tr:nth-child(3) td:nth-child(3) {
+td.free.selected {
     font-weight: bold;
-    color: green;
+    color: Gold;
 }
 
 td.selected {
     background-color: blue;
     color: white;
+}
+
+#bingoBoard.win:before {
+    content: 'You Win!';
+    text-transform: uppercase;
+    color: green;
+    font-size: 40px;
+    margin-left: 400px;
+    display: block;
 }
