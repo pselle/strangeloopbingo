@@ -27,6 +27,11 @@ td {
 }
 
 tr:nth-child(3) td:nth-child(3) {
-    font-weight: bold; 
+    font-weight: bold;
     color: green;
+}
+
+td.selected {
+    background-color: blue;
+    color: white;
 }

@@ -53,6 +53,14 @@ var squares = document.querySelectorAll('#bingoBoard td')
 
 for(var i=0; i < squares.length; i++) {
   squares[i].textContent = shuffledChoices[i]
+  squares[i].onclick = onclick
 }
 
 squares[12].textContent = "FREE SQUARE"
+
+function onclick(e) {
+  var square = e.target
+    , selected = square.classList.contains('selected')
+
+  square.classList[selected ? 'remove' : 'add']('selected')
+}
