@@ -1,3 +1,16 @@
 h1 {
     font-family: Georgia;
 }
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 900px;
+}
+td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 5px;
+}
