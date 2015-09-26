@@ -25,7 +25,9 @@ var choices = [
   "isomorphic",
   "hypotheses",
   "dependent types",
-  "Haskell"
+  "Haskell",
+  "idempotent",
+  "type system"
 ]
 
 // From http://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
